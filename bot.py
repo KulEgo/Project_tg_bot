@@ -6,8 +6,8 @@ import random
 import requests
 import json
 
-bot = telebot.TeleBot('7587930044:AAEbrcOhPdJaleOkoQTSH5D_Uf238Bbd7bY')
-API = 'abcb934124c8947e0111042c44372700'
+bot = telebot.TeleBot('TOKEN')
+API = 'API'
 
 @bot.message_handler(commands = ['weather'])
 def weather(message):
